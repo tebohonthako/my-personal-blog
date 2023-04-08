@@ -9,6 +9,7 @@ h1 {
 }
 body {
   margin-top: 0;
+  height: 0;
 }
 hr {
   width: 10%;
@@ -29,6 +30,7 @@ hr {
   position: relative;
   left: 25rem;
   top: 10rem;
+  line-height: 1.5rem;
 }
 
 .page-links {
@@ -36,8 +38,8 @@ hr {
   font-family: "Montserrat", sans-serif;
   color: #777777;
   position: fixed;
-  right: 30rem;
-  top: 1rem;
+  right: 55rem;
+  top: 2.3rem;
 }
 .link-pad {
   padding: 1rem;
@@ -55,11 +57,12 @@ hr {
   margin: 1rem;
   margin-right: 2rem;
   position: fixed;
-  top: 0;
+  top: 1.5rem;
   right: 0;
 }
+
 .spacing {
-  padding: 0.5rem;
+  padding: 0.1rem;
   margin: 0.5rem;
 }
 .spacing:hover {
@@ -95,11 +98,16 @@ hr {
   margin-top: 5rem;
   margin-right: 45rem;
   position: relative;
-  top: -28rem;
-  left: 35rem;
+  top: -28.5rem;
+  left: 25rem;
 }
-.genetics-dna-structure {
+.graduation {
   position: relative;
-  top: -28rem;
-  left: -5rem;
+  top: -51.6rem;
+  left: 25rem;
+  height: 22.5rem;
+}
+.story {
+  padding: 3.5rem;
+  line-height: 2rem;
 }
