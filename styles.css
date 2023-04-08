@@ -10,9 +10,14 @@ h1 {
 body {
   margin-top: 0;
   height: 0;
+  font-family: "Montserrat", sans-serif;
 }
 hr {
   width: 10%;
+}
+h1:hover {
+  color: #ee629e;
+  cursor: grab;
 }
 
 .heading-line {
@@ -22,15 +27,14 @@ hr {
   right: 38rem;
 }
 .my-name {
-  font-family: "Playfair Display", serif;
   font-size: 46;
 }
 .my-intro {
-  font-family: "Montserrat", sans-serif;
-  position: relative;
-  left: 25rem;
-  top: 10rem;
+  position: absolute;
+  left: 30rem;
+  top: 20rem;
   line-height: 1.5rem;
+  font-family: "Playfair Display", serif;
 }
 
 .page-links {
@@ -71,15 +75,15 @@ hr {
 }
 .myself-in-cpt {
   margin: 5rem;
-  position: relative;
-  top: -19rem;
+  position: absolute;
+  top: 9rem;
 }
-.work-profile {
+.ethos {
   margin-right: 10rem;
   margin: 5rem;
-  position: relative;
+  position: absolute;
   left: 54rem;
-  top: -49rem;
+  top: 9rem;
 }
 .my-story {
   text-align: center;
@@ -92,17 +96,17 @@ hr {
 .foodie-image {
   margin-top: 5rem;
   margin-right: 45rem;
-  position: relative;
+  position: absolute;
 }
 .zanzibar-image {
   margin-top: 5rem;
   margin-right: 45rem;
-  position: relative;
+  position: absolute;
   top: -28.5rem;
   left: 25rem;
 }
 .graduation {
-  position: relative;
+  position: absolute;
   top: -51.6rem;
   left: 25rem;
   height: 22.5rem;
