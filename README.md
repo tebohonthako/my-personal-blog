@@ -4,4 +4,4 @@
 
 ## Built a personal blog about my interests &amp; experiences using HTML and CSS and a touch of Javascript.
 
-## Enjoy! 💜
+## Grab your popcorn 🍿 & Enjoy! 💜
