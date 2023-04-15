@@ -22,7 +22,9 @@
   <body>
     <!-- My Socials -->
     <div class="socials">
-      <span class="spacing"><i class="fa-brands fa-instagram"></i></span>
+      <span class="spacing" target="_blank">
+        <i class="fa-brands fa-instagram"></i>
+      </span>
       <span class="spacing"><i class="fa-brands fa-twitter"></i></span>
       <span class="spacing"><i class="fa-brands fa-tiktok"></i></span>
       <span class="spacing"><i class="fa-brands fa-linkedin"></i></span>
@@ -42,33 +44,30 @@
     <br />
 
     <div class="my-intro">
-      <h3>HELLO WORLD !</h3>
+      <h3>HELLO WORLD !💻</h3>
       <br />
       <p>
         <br />
-        I'm Teboho Nthako.
+        My name is Teboho Nthako AKA Teboo.
         <br />
         <br />
         Welcome to a day in my life. <br />
         I created this blog to share my story and hopefully inspire you. <br />
-        I am a Self-taught software developer and Content creator. <br />Keep on
-        reading to find out more about me.
+        I am a Self-taught software developer (now coding bootcamp student) and
+        Content creator. <br />Keep on reading to find out more about me.
       </p>
     </div>
 
     <!-- Images -->
-    <div class="myself-in-cpt">
-      <img src="/images/me-in-CPT.jpeg" alt="myself in cpt" width="300" />
-    </div>
-
-    <span>
+    <div>
       <img
-        class="ethos"
-        src="/images/ethos.jpeg"
-        alt="A picture of myself at Ethos restaurant"
-        width="300"
+        class="myself-in-cpt"
+        src="/images/me-in-CPT.jpeg"
+        alt="myself in cpt"
+        width="150"
+        height="460"
       />
-    </span>
+    </div>
 
     <br />
     <br />
@@ -109,7 +108,7 @@
         in Human genetics from the University of the Free State, after
         graduating I realized my passion lies in Tech, My curiousity and
         interest in how software works started with my obsession with online
-        shopping (i know, I know, I'm not proud of it but I'm working on it
+        shopping (I know, I know, I'm not proud of it but I'm working on it
         okay.) I tried the whole corporate thing for 9 months and quit to pursue
         a career in tech. I wanted to change my life and do what I'm passionate
         about for the rest of my life. I taught myself to code and created my
@@ -124,7 +123,7 @@
         <br />
         <br />
         <h3>From Geneticist to Software developer and Content creator.</h3>
-        <hr />
+
         <br />
 
         Aside from being a software developer, I enjoy creating content on
@@ -135,7 +134,11 @@
         CS degree and purely bootcamps and certifications. This has been by far
         the most fulfilling journey to share with my followers because many have
         also drawn inspiration from me and decided to kickstart their tech
-        careers.
+        careers. <br />
+        Travelling and trying out new restaurants is my weakness, I've been to
+        Cape Town, Mpumalanga, Durban, Kimberly, Bloem and hope to travel to my
+        dream destination Zanzibar one day. I love that being a software
+        developer will allow me to travel one day.
 
         <br />
         <br />
@@ -143,6 +146,7 @@
         <br />
         <br />
 
+        <!-- Images for about me page -->
         <img
           src="/images/zanzibar.png"
           alt="Zanzibar travel bikini picture"
@@ -164,31 +168,50 @@
     <br />
     <br />
 
+    <!-- Form / Newsletter -->
     <div>
-      <h2 align="center">Get in touch with me.</h2>
+      <h2 align="center">Contact Me</h2>
       <br />
 
       <hr />
       <br />
-      <form method="post" class="message">
-        <input type="text" name="user-name" id="user name" placeholder="Name" />
-        <input
-          type="email"
-          name="user-email"
-          id="users email address"
-          placeholder="Email"
-        />
-        <input type="submit" value="send" />
+
+      <div class="newsletter">
+        <div class="connect">
+          Get in touch with me. <br />
+          <strong>Email:</strong>
+          <a href="" target="_blank">tjaynthako@gmail.com </a><br />
+          Lets connect.
+        </div>
         <br />
-        <br />
-        <input
-          class="comment"
-          type="text"
-          name="comment"
-          id="let user leave a message"
-          placeholder="Message"
-        />
-      </form>
+        <form method="post">
+          <input
+            type="text"
+            name="user-name"
+            id="user name"
+            placeholder="Name"
+          />
+          <input
+            type="email"
+            name="user-email"
+            id="users email address"
+            placeholder="Email"
+          />
+          <br />
+          <br />
+          <textarea
+            name="comments"
+            id="comment-section"
+            cols="46"
+            rows="8"
+            placeholder="Add comment here..."
+          ></textarea>
+          <br />
+          <br />
+          <input type="submit" value="send" />
+        </form>
+      </div>
+
       <br />
 
       <div class="yt-video">
@@ -206,5 +229,6 @@
     <br />
     <br />
     <br />
+    <script src="index.js"></script>
   </body>
 </html>
